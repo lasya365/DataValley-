@@ -21,13 +21,13 @@ This folder contains my learning and practice notebooks in Python, Machine Learn
 
 ```mermaid
 graph TD
-    AI[Artificial Intelligence (AI)]
-    ML[Machine Learning (ML)]
-    DL[Deep Learning (DL)]
-    NLP[Natural Language Processing (NLP)]
+    AI[Artificial Intelligence ]
+    ML[Machine Learning ]
+    DL[Deep Learning]
+    NLP[Natural Language Processing ]
 
-    RNN[RNN]
-    LSTM[LSTM]
+    RNN
+    LSTM
     BOW[Bag of Words (BOW)]
     EMB[Embeddings]
     TC[Text Classification]
