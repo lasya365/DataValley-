@@ -17,34 +17,22 @@ This folder contains my learning and practice notebooks in Python, Machine Learn
 - Pandas
 - Google Colab
 ## Flow chart
-# NLP Learning Flow
+## NLP Learning Flow
 
 ```mermaid
 graph TD
-    AI[Artificial Intelligence ]
-    ML[Machine Learning ]
-    DL[Deep Learning]
-    NLP[Natural Language Processing ]
 
-    RNN
-    LSTM
-    BOW[Bag of Words (BOW)]
-    EMB[Embeddings]
-    TC[Text Classification]
-    ED[Encoder Decoder]
-    ATT[Attention Mechanism]
-    TRANS[Transformers]
+A[Artificial Intelligence] --> B[Machine Learning]
+B --> C[Deep Learning]
+C --> D[Natural Language Processing]
 
-    AI --> ML
-    ML --> DL
-    DL --> NLP
-
-    NLP --> RNN
-    NLP --> LSTM
-    NLP --> BOW
-    NLP --> EMB
-    NLP --> TC
-    NLP --> ED
-    NLP --> ATT
-    NLP --> TRANS
+D --> E[RNN]
+D --> F[LSTM]
+D --> G[BOW]
+D --> H[Embeddings]
+D --> I[Text Classification]
+D --> J[Encoder Decoder]
+D --> K[Attention]
+D --> L[Transformers]
 ```
+
